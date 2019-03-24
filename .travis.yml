@@ -2,7 +2,11 @@ language: cpp
 compiler: gcc
 
 script:
+ - pwd
  - cd using_uninitialized_var
+ - pwd
+ - ls -la
+ - make clean
  - make
  - ./using_uninitialized_var
  
