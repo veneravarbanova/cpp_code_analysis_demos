@@ -1,0 +1,7 @@
+language: cpp
+compiler: gcc
+
+script:
+ - make
+ - ./using_uninitialized_var
+ 
